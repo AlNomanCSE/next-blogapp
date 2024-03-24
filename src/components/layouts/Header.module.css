@@ -1,0 +1,49 @@
+.header {
+    margin: 0 auto;
+    max-width: 1300px;
+    background-color: #222831;
+    color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.header div:first-child {
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.header div:nth-child(2) {
+    display: flex;
+    gap: 1rem;
+}
+
+.header div:nth-child(2) p {
+    text-align: center;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    transition: all .1s ease-in;
+}
+
+.active1 {
+    background-color: #76ABAE;
+    color: #222831;
+}
+
+.header div:nth-child(3) {
+    display: flex;
+    gap: 1rem;
+}
+
+.header div:nth-child(3) p {
+    text-align: center;
+    padding: .5rem 1rem;
+    border-radius: 2px;
+    transition: all .1s ease-out;
+}
+
+.active2 {
+    background-color: #EEEEEE;
+    color: #222831;
+}
